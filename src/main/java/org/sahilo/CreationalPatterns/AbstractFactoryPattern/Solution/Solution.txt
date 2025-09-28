@@ -1,0 +1,14 @@
+1. Abstract Product Interfaces:
+   - Define interfaces for a family of related products.
+   - Example: `Button`, `Checkbox`.
+2. Concrete Product Classes:
+   - Implement the abstract product interfaces.
+   - Example: `WindowsButton`, `MacOSButton`, `WindowsCheckbox`, `MacOSCheckbox`.
+3. Abstract Factory Interface:
+   - Declare methods for creating abstract products.
+   - Example: `GUIFactory` with methods `createButton()` and `createCheckbox()
+4. Concrete Factory Classes:
+   - Implement the abstract factory interface to create concrete products.
+   - Example: `WindowsFactory` and `MacOSFactory`.
+5. Client Code:
+    - Use the abstract factory to create products without specifying their concrete classes.
