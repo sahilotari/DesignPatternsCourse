@@ -1,0 +1,7 @@
+Step 1: Identify the class with many constructor parameters.
+Step 2: Create a static nested Builder class inside the original class.
+Step 3: In the Builder class, create fields for each parameter of the original class.
+Step 4: Provide setter methods in the Builder class for each parameter, returning the Builder instance
+Step 5: Create a build() method in the Builder class that constructs and returns an instance of the original class using the parameters set in the Builder.
+Step 6: Make the constructor of the original class private and accept a Builder instance to initialize its fields.
+Step 7: Use the Builder to create instances of the original class in client code
