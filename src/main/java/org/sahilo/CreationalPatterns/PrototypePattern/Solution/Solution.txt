@@ -1,0 +1,9 @@
+Step1: Identify the complex object
+Step2: Create a prototype interface
+Step3: Implement the prototype interface in concrete classes
+Step4: Implement a cloning method
+Step5: Use the prototype to create new objects
+
+Add Prototype<T> interface.
+Implement clone() in GamePiece and GameBoard.
+Use board.clone() instead of manual copying in the client.
